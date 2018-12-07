@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 50, 0.5)),
+  url("../img/backGround.jpg");
+}
+
+body {
+
+  height: 100%; 
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left:  10px; 
+}
+
+*,
+*:before,
+*:after {
+  padding: 8px;
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.icon {
+  fill: currentColor;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+}
+
+html {
+
+    margin: 0;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 980px; 
+  margin: 40px auto;
+  padding: 32px;
+  background: floralwhite;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid burlywood;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+img.YoungCho {
+  width: 130px;
+}
+.my-name {
+  font-size: 48px;
+  line-height: 1;
+}
+
+.my-title {
+  font-size: 24px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #236fb2;
+}
+
+.links {
+  display: flex;
+  margin: 41px -62px -16px 12px;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.link-item svg {
+  margin-right: 6px;
+}
+
+.form-control {
+  width: 700px;
+  background: transparent;
+  border: none;
+  outline: lightgrey;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+input {
+  height: 45px;
+}
+
+form .submit {
+  border-bottom: none;
+  background: gray;
+  background-color: none;
+  color: black;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  height: 71px;
+  margin-top: 20px;
+}
+form .submit:hover {
+  background-color: blue;
+  cursor: pointer;
+}
